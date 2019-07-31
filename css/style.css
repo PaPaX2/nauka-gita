@@ -1,5 +1,21 @@
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 15px;
+}
 body {
-  margin: 0;
+  margin: 0 auto;
+  padding: 0;
   max-width: 1140px;
   color: #b71540;
   background-color: #fad390;
@@ -8,10 +24,50 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: 20px;
-  width: auto;
+  padding: 20px;
+}
+
+.title h2{
+  text-align: right;
+}
+
+.poem {
+  min-width: 30%;
+  text-align: center;
 }
 
 .box {
-  max-width: 60%;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.box p {
+  align-content: center;
+}
+
+.box-left {
+  padding-right: 50%;
+}
+
+.box-right {
+  padding-left: 50%
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  margin: 20px;
+  background-color:#fad390;
+}
+
+i {
+  font-size: 40px;
+  color: #b71540;
+
 }
