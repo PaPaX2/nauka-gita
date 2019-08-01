@@ -1,0 +1,81 @@
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 15px;
+}
+body {
+  margin: 0 auto;
+  padding: 50;
+  max-width: 1140px;
+  color: #b71540;
+  background-color: #fad390;
+}
+
+.container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  margin: 20px;
+  padding: 0;
+}
+
+.title h2{
+  text-align: right;
+}
+
+.poem {
+  text-align: center;
+  margin: 20px;
+  min-width: 50%;
+}
+
+.box {
+  margin: 0 auto;
+
+}
+
+.box p {
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.box-left {
+  padding-right: 15%;
+}
+
+.box-right {
+  padding-left: 15%;
+}
+.btn {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  margin: 2px;
+  background-color: #fad390;
+}
+
+i {
+  font-size: 40px;
+  color: #b71540;
+}
